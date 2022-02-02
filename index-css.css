@@ -1,0 +1,189 @@
+<style>
+    body {
+        margin:0px;
+    }
+    .top_line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 10px;
+        top:0px;
+        position: sticky;
+    }
+
+    .icons1 {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-family:Neonderthaw;
+
+    }
+
+    .icons1 img {
+        padding: 10px;
+    }
+    
+    .list {
+        display: flex;
+        list-style: none;
+        padding:0px;
+    }
+
+    .list li {
+        padding:10px 40px;
+    }
+
+    .list li:hover {
+        background: chocolate;
+        border-radius: 5px;
+    }
+
+    .list li a {
+        text-decoration: none;
+    }
+
+    .icons {
+        display: flex;
+    }
+
+    .icons img {
+        padding: 10px 30px;
+    }
+
+    .Right {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .season1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .season1 img {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .season1 img:hover {
+        width: 600px;
+        height: 300px;
+    }
+
+    .season1_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(196, 193, 193);
+        margin: 0px 130px 0px 130px;
+    }
+
+    .season2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px 40px 40px;
+    }
+
+    .season2 img {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .season2 img:hover {
+        width: 600px;
+        height: 300px;
+    }
+
+    .season2_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(196, 193, 193);
+        margin: 0px 130px 0px 130px;
+    }
+
+    .season3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px 40px 40px;
+    }
+
+    .season3 img {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .season3 img:hover {
+        width: 600px;
+        height: 300px;
+    }
+
+    .season3_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(196, 193, 193);
+        margin: 0px 130px 0px 130px;
+    }
+
+    .season4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px 40px 40px;
+    }
+
+    .season4 img {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .season4 img:hover {
+        width: 600px;
+        height: 300px;
+    }
+
+    .season4_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(196, 193, 193);
+        margin: 0px 130px 0px 130px;
+    }
+    @media screen and (max-width: 768px) {
+        .top_line {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .list {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .icons {
+            display: none;
+        }
+
+        .Right {
+            display: block;
+            position: absolute;
+            right: 32px;
+        }
+        
+        .Right img {
+            padding: 10px 30px;
+        }
+
+        .main {
+            display: none;
+        }
+    }
+</style>
