@@ -76,6 +76,37 @@
         display: none;
     }
 
+    .woody_main1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .woody_main1 ul {
+        list-style: none;
+    }
+
+    .woody_table {
+        font-size: 24px;
+        padding: 40px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_table th {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .woody_table td {
+        padding: 20px;
+    }
+
+    .woody_comment {
+        padding-left: 40px;
+        font-family: Nanum Pen Script;
+        font-size: 24px;
+    }
+
     @media screen and (max-width: 768px) {
         .top_line {
             flex-direction: column;
