@@ -2,6 +2,12 @@
     body {
         margin:0px;
     }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
     .top_line {
         display: flex;
         justify-content: space-between;
@@ -30,18 +36,28 @@
         padding:0px;
     }
 
+    .list ul {
+    }
+
     .list li {
         padding:10px 40px;
+        font-family: Nanum Pen Script;
+        font-size: 26px;
+        text-decoration: none;
+        color: black;
     }
 
     .list li:hover {
-        background: chocolate;
-        border-radius: 5px;
+        border-bottom: 3px solid chocolate;
+        margin-bottom: -3px;
+        transition: ease 0.1s;
     }
 
     .list li a {
         text-decoration: none;
+        color: black;
     }
+
 
     .icons {
         display: flex;
@@ -59,6 +75,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .main img {
+        border-radius: 30px;
     }
 
     .season1 {
@@ -82,7 +102,9 @@
         justify-content: center;
         align-items: center;
         border-bottom: 2px solid rgb(196, 193, 193);
-        margin: 0px 130px 0px 130px;
+        margin: 0px 300px 0px 300px;
+        font-family: Nanum Pen Script;
+        font-size: 30px;
     }
 
     .season2 {
@@ -106,7 +128,9 @@
         justify-content: center;
         align-items: center;
         border-bottom: 2px solid rgb(196, 193, 193);
-        margin: 0px 130px 0px 130px;
+        margin: 0px 300px 0px 300px;
+        font-family: Nanum Pen Script;
+        font-size: 30px;
     }
 
     .season3 {
@@ -130,7 +154,9 @@
         justify-content: center;
         align-items: center;
         border-bottom: 2px solid rgb(196, 193, 193);
-        margin: 0px 130px 0px 130px;
+        margin: 0px 300px 0px 300px;
+        font-family: Nanum Pen Script;
+        font-size: 30px;
     }
 
     .season4 {
@@ -154,7 +180,29 @@
         justify-content: center;
         align-items: center;
         border-bottom: 2px solid rgb(196, 193, 193);
-        margin: 0px 130px 0px 130px;
+        margin: 0px 300px 0px 300px;
+        font-family: Nanum Pen Script;
+        font-size: 30px;
+    }
+
+    .min_main {
+        display: none;
+    }
+
+    .min_main ul {
+        list-style: none;
+    }
+
+    .insta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        font-size: 30px;
+    }
+
+    .insta i {
+        padding: 30px;
     }
     @media screen and (max-width: 768px) {
         .top_line {
@@ -166,6 +214,16 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
+            background: none;
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+
+        .list li:hover {
+            border-bottom: 3px solid chocolate;
+            margin-bottom: -3px;
+            transition: ease 0.1s;
+            text-align: center;
         }
 
         .icons {
@@ -184,6 +242,78 @@
 
         .main {
             display: none;
+        }
+
+        .season1{
+            display: none;
+        }
+
+        .season2{
+            display: none;
+        }
+
+        .season3{
+            display: none;
+        }
+
+        .season4{
+            display: none;
+        }
+
+        .season1_comment {
+            display: none;
+        }
+        
+        .season2_comment {
+            display: none;
+        }
+
+        .season3_comment {
+            display: none;
+        }
+
+        .season4_comment {
+            display: none;
+        }
+
+
+        .min_main{
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 100px;
+          }
+
+          .min_main a {
+            text-decoration: none;
+            font-size: 24px;
+            color: black;
+          }
+
+        .min_main1 {
+            padding: 20px;
+        }
+
+        .min_main2 {
+            padding: 20px;
+        }
+
+        .min_main3 {
+            padding: 20px;
+        }
+
+        .min_main4 {
+            padding: 20px;
+        }
+
+        .min_main5 {
+            padding: 20px;
+        }
+
+        .insta i {
+            padding: 10px;
         }
     }
 </style>
