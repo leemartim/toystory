@@ -1,0 +1,245 @@
+<style>
+    body {
+        margin:0px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .top_line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 10px;
+        top:0px;
+    }
+
+    .icons1 {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-family:Neonderthaw;
+
+    }
+
+    .icons1 img {
+        padding: 10px;
+    }
+    
+    .list {
+        display: flex;
+        list-style: none;
+        padding:0px;
+    }
+
+    .list ul {
+    }
+
+    .list li {
+        padding:10px 40px;
+        font-family: Nanum Pen Script;
+        font-size: 26px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .list li:hover {
+        border-bottom: 3px solid chocolate;
+        margin-bottom: -3px;
+        transition: ease 0.1s;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .current_list {
+        border-bottom: 3px solid chocolate;
+        margin-bottom: -3px;
+        transition: ease 0.1s;
+    }
+    
+    .icons {
+        display: flex;
+    }
+
+    .icons img {
+        padding: 10px 30px;
+    }
+
+    .Right {
+        display: none;
+    }
+
+    .woody_main1_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-family: Nanum Pen Script;
+        padding-top: 50px;
+    }
+
+    .woody_main1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .woody_main1 ul {
+        list-style: none;
+    }
+
+    .woody_table {
+        font-size: 24px;
+        padding: 40px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_table th {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .woody_table td {
+        padding: 20px;
+    }
+
+    .woody_comment {
+        padding-left: 40px;
+        font-family: Nanum Pen Script;
+        font-size: 24px;
+    }
+
+    .woody_main2_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-family: Nanum Pen Script;
+        border-top: 3px solid gray;
+        margin:20px 200px 40px 200px;
+
+    }
+
+    .woody_main2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .woody_main2 img{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .woody_main2_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_main2_comment ul {
+        list-style: none;
+        text-align: center;
+        
+    }
+
+    .woody_main3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+
+    .woody_main3 img{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .woody_main3_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_main3_comment ul {
+        list-style: none;
+        text-align: center;
+        
+    }
+
+    .woody_main4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+
+    .woody_main4 img{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .woody_main4_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_main4_comment ul {
+        list-style: none;
+        text-align: center;
+        
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .top_line {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .list {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background: none;
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+
+        .list li:hover {
+            border-bottom: 3px solid chocolate;
+            margin-bottom: -3px;
+            transition: ease 0.1s;
+            text-align: center;
+        }
+
+        .icons {
+            display: none;
+        }
+
+        .Right {
+            display: block;
+            position: absolute;
+            right: 32px;
+        }
+        
+        .Right img {
+            padding: 10px 30px;
+        }
+
+        .main {
+            display: none;
+        }
