@@ -15,7 +15,6 @@
         background: white;
         padding: 10px;
         top:0px;
-        position: sticky;
     }
 
     .icons1 {
@@ -76,6 +75,15 @@
         display: none;
     }
 
+    .woody_main1_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-family: Nanum Pen Script;
+        padding-top: 50px;
+    }
+
     .woody_main1 {
         display: flex;
         justify-content: center;
@@ -106,6 +114,95 @@
         font-family: Nanum Pen Script;
         font-size: 24px;
     }
+
+    .woody_main2_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-family: Nanum Pen Script;
+        border-top: 3px solid gray;
+        margin:20px 200px 40px 200px;
+
+    }
+
+    .woody_main2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .woody_main2 img{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .woody_main2_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_main2_comment ul {
+        list-style: none;
+        text-align: center;
+        
+    }
+
+    .woody_main3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+
+    .woody_main3 img{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .woody_main3_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_main3_comment ul {
+        list-style: none;
+        text-align: center;
+        
+    }
+
+    .woody_main4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+
+    .woody_main4 img{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .woody_main4_comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-family: Nanum Pen Script;
+    }
+
+    .woody_main4_comment ul {
+        list-style: none;
+        text-align: center;
+        
+    }
+
 
     @media screen and (max-width: 768px) {
         .top_line {
