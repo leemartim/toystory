@@ -1,0 +1,218 @@
+<style>
+    body {
+        margin:0px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .top_line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 10px;
+        top:0px;
+    }
+
+    .icons1 {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-family:Neonderthaw;
+
+    }
+
+    .icons1 img {
+        padding: 10px;
+    }
+    
+    .list {
+        display: flex;
+        list-style: none;
+        padding:0px;
+    }
+
+    .list ul {
+    }
+
+    .list li {
+        padding:10px 40px;
+        font-family: Nanum Pen Script;
+        font-size: 26px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .list li:hover {
+        border-bottom: 3px solid chocolate;
+        margin-bottom: -3px;
+        transition: ease 0.1s;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .current_list {
+        border-bottom: 3px solid chocolate;
+        margin-bottom: -3px;
+        transition: ease 0.1s;
+    }
+    
+    .icons {
+        display: flex;
+    }
+
+    .icons img {
+        padding: 10px 30px;
+    }
+
+    .Right {
+        display: none;
+    }
+
+    .Toy_Story1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin: 50px;
+        font-size: 30px;
+        font-family: Nanum Pen Script;
+    }
+
+    .Toy_Story1 ul {
+        border: 3px solid chocolate;
+        border-radius: 10px;
+        background-color: chocolate;
+        padding:5px 5px 0px 5px;
+        list-style: none;
+        margin: 10px;
+    }
+
+    .main > div > img {
+        padding: 10px;
+    }
+
+    .potato {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .potato_comment {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 50px;
+        font-size: 24px;
+        font-family: Nanum Pen Script;
+    }
+
+    .slinky {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .slinky_comment {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 50px;
+        font-size: 24px;
+        font-family: Nanum Pen Script;
+    }
+
+    .rex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .rex_comment {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 50px;
+        font-size: 24px;
+        font-family: Nanum Pen Script;
+    }
+
+    .hamm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .hamm_comment {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 50px;
+        font-size: 24px;
+        font-family: Nanum Pen Script;
+    }
+
+    .another {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: top;
+        font-family: Nanum Pen Script;
+        font-size: 24px;
+        padding: 50px;
+    }
+
+    .another p {
+        padding: 20px;
+    }
+
+    .line {
+        display: block;
+        border-top: 1px dashed black;
+        margin: 60px;
+    }
+
+    .main img:hover {
+        width: 400px;
+        height:300px;
+    }
+
+    ul li{
+        list-style: none;
+    }
+
+    .current_list > ul > li {
+        float:left;
+        position:relative;
+        right: 70px;
+        top:10px;
+    }
+    
+    .current_list > ul {
+        width: 300px;
+        height: 100px;
+        display: none;
+        position: absolute;
+        font-size: 12px;  
+        }
+
+    .current_list > ul:hover {
+        display: block;
+    }
+
+    .current_list > ul > li:hover {
+        text-decoration: none;
+        border-bottom: 1px solid white;
+        transition: ease 0s;
+    }
+</style>
