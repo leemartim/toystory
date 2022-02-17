@@ -203,6 +203,35 @@
         
     }
 
+    ul li{
+        list-style: none;
+    }
+
+    .icons1 > ul > li {
+        float:left;
+        position:relative;
+    }
+    
+    .current_list > ul {
+        top:90px;
+        width: 200px;
+        height: 100px;
+        display: none;
+        position: absolute;
+        font-size: 12px;  
+        padding: 0px 0px 0px 0px;
+        }
+
+    .list > li:hover > ul {
+        display: block;
+    }
+
+    .current_list > ul > li:hover {
+        text-decoration: none;
+        border: 1px solid white;
+        transition: ease 0s;
+    }
+
 
     @media screen and (max-width: 768px) {
         .top_line {

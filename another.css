@@ -31,7 +31,6 @@
     
     .list {
         display: flex;
-        list-style: none;
         padding:0px;
     }
 
@@ -101,28 +100,27 @@
         list-style: none;
     }
 
-    .current_list > ul > li {
+    .icons1 > ul > li {
         float:left;
         position:relative;
-        right: 70px;
-        top:10px;
     }
     
     .current_list > ul {
-        width: 300px;
+        top:90px;
+        width: 200px;
         height: 100px;
         display: none;
         position: absolute;
         font-size: 12px;  
+        padding: 0px 0px 0px 0px;
         }
 
-    .current_list > ul:hover {
+    .list > li:hover > ul {
         display: block;
     }
 
     .current_list > ul > li:hover {
         text-decoration: none;
-        border-bottom: 1px solid white;
+        border: 1px solid white;
         transition: ease 0s;
     }
-</style>
